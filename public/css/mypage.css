@@ -1,0 +1,93 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+td{
+  padding: 15px;
+}
+
+th{
+  padding: 15px;
+  background-color: rgb(224, 221, 221);
+}
+
+.buttonUnifiedSize{
+  width: 150px;
+  font-size: 20px;
+  height: 73px;
+}
+
+.buttonUnifiedSize:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.buttonUnifiedSize a{
+  display: block;
+  height: 73px;
+  line-height: 73px;
+}
+
+
+.formBox{
+  display: flex;
+  justify-content: center;
+}
+
+.linkLoginAs{
+  display: block;
+  padding: 60px; 
+  background-color: rgb(127, 214, 255);
+  font-size: 30px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.linkLoginAs:hover{
+  opacity: 0.8;
+}
+
+.linkLoginAsBox{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.newTeamLink{
+  font-size: 20px;
+  background-color: rgb(127, 214, 255);
+  padding: 15px 100px;
+  margin: 0 auto;
+  display: block; 
+  width: 150px; 
+}
+
+.newTeamLink:hover{
+  opacity: 0.8;
+}
+
+.tableFlex{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.teamDetailLink{
+  color: #0F0AD1;
+  text-decoration: underline;
+}
+
+.teamDetailLink:hover{
+  opacity: 0.8;
+}

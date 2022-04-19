@@ -1,0 +1,33 @@
+body{
+  margin: 0 auto;
+}
+#header{
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(127, 214, 255);
+}
+
+.logoBox{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logoutButton{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.registerLink{
+  line-height: 10px;
+  padding: 20px;
+}
+
+.registerLink a{
+  text-decoration: none;
+  color: #0F0AD1;
+}
+
+

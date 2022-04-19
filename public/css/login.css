@@ -1,0 +1,54 @@
+body{
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  color: #0F0AD1;
+}
+
+p{
+  padding: 0;
+  margin: 0;
+}
+
+.inputBox{
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.inputBox::placeholder{
+  text-align: center;
+}
+
+.loginBox{
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+  text-align: center;
+  background-color: rgb(236, 232, 226);
+}
+
+.loginBox h2{
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: rgb(127, 214, 255);
+  line-height: 2;
+}
+
+.loginBtnBox{
+  padding-bottom: 20px;
+}
+
+
+.loginInputBox{
+  text-align: left;
+  padding: 20px;
+}
+
+.validation{
+  color: red;
+  font-size: 10px;
+}

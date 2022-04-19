@@ -1,0 +1,96 @@
+
+.loginLink{
+  display: block; 
+  float: right; 
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  background-color:rgb(127, 214, 255);
+}
+
+.container{
+  text-align: center;
+}
+
+.formBox{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: rgb(127, 214, 255);
+}
+
+.inputBox{
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+label{
+  font-size: 16px;
+}
+
+#playat{
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+}
+
+#playat::placeholder{
+  text-align: center;
+}
+
+#playDate{
+  font-size: 20px;
+  
+}
+
+#playersNumber{
+  font-size: 20px;
+  width: 100px;
+}
+
+.registerBtnBox{
+  padding-bottom: 20px;
+}
+
+.registerFormBox{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 500px;
+  text-align: center;
+  background-color: rgb(236, 232, 226);
+}
+
+.registerFormBox h2{
+  color: black;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: rgb(127, 214, 255);
+  line-height: 2;
+}
+
+.registerInputBox{
+  text-align: left;
+  padding: 0 20px;
+  padding-top: 10px;
+}
+
+#sport{
+  font-size: 20px;
+  width: 300px;
+}
+
+#teamName{
+  width: 300px;
+  height: 20px;
+  font-size: 20px;
+}
+
+.validation{
+  color: red;
+  font-size: 13px;
+  margin: 0;
+}
