@@ -19,10 +19,10 @@
 メールアドレス→match-spo@co.jp
 パスワード→matchsp0
 
-環境
+## 環境
 XAMPP/MySQL/PHP
 
-データベース
+## データベース
 データベース名：sports_app
 
 お使いのphpMyAdminに～をインポートして頂き、お試しください。
