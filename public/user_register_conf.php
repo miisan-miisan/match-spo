@@ -13,8 +13,17 @@ if(!$name = filter_input(INPUT_POST, 'name')){
 if(filter_input(INPUT_POST, 'sex') == 0){
   $err['sex'] = '性別を選択してください。';
 }
-if(!$adress = filter_input(INPUT_POST, 'adress')){
-  $err['adress'] = '住所を記入してください。';
+if(!$zipcode = filter_input(INPUT_POST, 'zipcode')){
+  $err['zipcode'] = '郵便番号を記入してください。';
+}
+if(!$prefecture = filter_input(INPUT_POST, 'prefecture')){
+  $err['prefecture'] = '都道府県を記入してください。';
+}
+if(!$adress1 = filter_input(INPUT_POST, 'address1')){
+  $err['address1'] = '市区町村を記入してください。';
+}
+if(!$adress2 = filter_input(INPUT_POST, 'address2')){
+  $err['address2'] = '市区町村以下を記入してください。';
 }
 if(!$email = filter_input(INPUT_POST, 'email')){
   $err['email'] = 'メールアドレスを記入してください。';
@@ -81,8 +90,20 @@ if(count($err) > 0){
           <input type="text" name="sex" value=<?php echo $_POST['sex'];?> class="inputBox" style=border:none; readonly>
         </p>
         <p>
-          <label for="adress">住所</label><br>
-          <input type="text" name="adress" value=<?php echo $_POST['adress'];?> class="inputBox" style=border:none; readonly>
+          <label for="zipcode">郵便番号</label><br>
+          <input type="text" name="zipcode" value=<?php echo $_POST['zipcode'];?> class="inputBox" style=border:none; readonly>
+        </p>
+        <p>
+          <label for="prefecture">都道府県</label><br>
+          <input type="text" name="prefecture" value=<?php echo $_POST['prefecture'];?> class="inputBox" style=border:none; readonly>
+        </p>
+        <p>
+          <label for="address1">市区町村</label><br>
+          <input type="text" name="address1" value=<?php echo $_POST['address1'];?> class="inputBox" style=border:none; readonly>
+        </p>
+        <p>
+          <label for="address2">丁目/番地/号</label><br>
+          <input type="text" name="address2" value=<?php echo $_POST['address2'];?> class="inputBox" style=border:none; readonly>
         </p>
         <p>
           <label for="email">メールアドレス</label><br>

@@ -12,15 +12,18 @@ class UserLogic{
   public static function createUser($userData){
     $return = false;
     
-    $sql = 'INSERT INTO users (name, adress, email, password, created_at, sex) VALUES(?, ?, ?, ?, CURRENT_TIMESTAMP, ?)';
+    $sql = 'INSERT INTO users (name, email, password, created_at, sex, zip_code, prefecture, address1, address2) VALUES(?, ?, ?, CURRENT_TIMESTAMP, ?, ?, ?, ?, ?)';
 
     // ユーザデータを配列に入れる
     $arr = [];
     $arr[] = $userData['name'];
-    $arr[] = $userData['adress'];
     $arr[] = $userData['email'];
     $arr[] = password_hash($userData['password'], PASSWORD_DEFAULT);
     $arr[] = $userData['sex'];
+    $arr[] = $userData['zipcode'];
+    $arr[] = $userData['prefecture'];
+    $arr[] = $userData['address1'];
+    $arr[] = $userData['address2'];
 
     try{
       $stmt = connect()->prepare($sql);
