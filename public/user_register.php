@@ -66,7 +66,8 @@ unset($_SESSION['userEmail']);
               <td style="display: flex;">
                 <input id="input" class="zipcode" type="text" name="zipcode" value="" placeholder="例) 8120012"
                 style="display: block;">
-                <button id="search" type="button" style="display: block; margin: 0 auto; align-items: center;">住所検索</button>
+                <button id="search" type="button" class="hover" style="display: block; margin: 0 auto; align-items: center; background-color: rgb(127, 214, 255); border: 1px solid white;
+">住所検索</button>
                 <p id="error"></p>
               </td>
             </tr>
